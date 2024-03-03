@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Bubble']
+
+roboflow:
+  workspace: luciano-bastos-nunes
+  project: webcomics-mangs
+  version: 8
+  license: MIT
+  url: https://universe.roboflow.com/luciano-bastos-nunes/webcomics-mangs/dataset/8
